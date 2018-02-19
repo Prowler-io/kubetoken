@@ -18,7 +18,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/atlassian/kubetoken"
+	"github.com/Prowler-io/kubetoken"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
 
 	"github.com/gorilla/handlers"

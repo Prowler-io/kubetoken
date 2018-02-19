@@ -27,7 +27,7 @@ To set the kubetokend host address when building `cmd/kubetoken`, set the addres
 
 To set the LDAP search base when building `cmd/kubetoken` _and_ `cmd/kubetokend`, set the address using the linker flag
 ```
--X github.com/atlassian/kubetoken.SearchBase=DC=yourcompany,DC=com
+-X github.com/Prowler-io/kubetoken.SearchBase=DC=yourcompany,DC=com
 ```
 
 You _must_ set the LDAP search base for both`cmd/kubetoken` _and_ `cmd/kubetokend`.

@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/atlassian/kubetoken"
+	"github.com/Prowler-io/kubetoken"
 	"github.com/pkg/errors"
 )
 
